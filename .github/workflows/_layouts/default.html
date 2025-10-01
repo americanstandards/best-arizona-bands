@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+  </head>
+  <body>
+    <header class="wrap">
+      <h1><a href="{{ "/" | relative_url }}">American Standards — Arizona Bands Directory</a></h1>
+      <nav>
+        <a href="{{ "/arizona/" | relative_url }}">Arizona</a>
+        <a href="{{ "/phoenix/" | relative_url }}">Phoenix</a>
+        <a href="{{ "/lists/arizona-bands-2000s/" | relative_url }}">2000s</a>
+        <a href="{{ "/lists/famous-bands-from-arizona/" | relative_url }}">Famous</a>
+        <a href="{{ "/lists/metal-bands-from-arizona/" | relative_url }}">Metal</a>
+        <a href="{{ "/lists/rock-bands-from-phoenix-arizona/" | relative_url }}">Phoenix Rock</a>
+        <a href="{{ "/lists/best-bands-from-arizona/" | relative_url }}">Best</a>
+      </nav>
+    </header>
+    <main class="wrap">
+      {{ content }}
+    </main>
+    <footer class="wrap">
+      <p>© {{ "now" | date: "%Y" }} American Standards Directory</p>
+    </footer>
+  </body>
+</html>
