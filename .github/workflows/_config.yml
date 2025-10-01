@@ -1,0 +1,40 @@
+title: American Standards — Arizona Bands Directory
+url: https://americanstandards.github.io/best-arizona-bands
+baseurl: ""
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+collections:
+  bands:
+    output: true
+    permalink: /bands/:name/
+  lists:
+    output: true
+    permalink: /lists/:name/
+  guides:
+    output: true
+    permalink: /guides/:name/
+defaults:
+  - scope:
+      path: ""
+      type: "bands"
+    values:
+      layout: band
+  - scope:
+      path: ""
+      type: "lists"
+    values:
+      layout: list
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: hub
+permalink: /:categories/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - README.md
