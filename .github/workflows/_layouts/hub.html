@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<article>
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.description }}</p>
+  <section>
+    <h2>Directory</h2>
+    <ul>
+      {% assign filtered = site.data.bands | where_exp: "b", page.filter %}
+      {% assign sorted = filtered | sort_natural: "name" %}
+      {% for b in sorted %}
+      <li><a href="{{ "/bands/" | append: b.slug | append: "/" | relative_url }}">{{ b.name }}</a> — {{ b.genres | join: ", " }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+</article>
