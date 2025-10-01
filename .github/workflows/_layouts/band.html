@@ -1,0 +1,42 @@
+---
+layout: default
+---
+{% assign b = site.data.bands | where: "slug", page.slug | first %}
+<article>
+  <h1>{{ b.name }} — {{ b.city }} {{ b.genres | join: " / " }}</h1>
+  <p><strong>Years active:</strong> {{ b.years_active }}</p>
+  <p><strong>Genres:</strong> {{ b.genres | join: ", " }}</p>
+  <p><strong>City:</strong> {{ b.city }}</p>
+  <section>
+    <h2>Why they matter in Arizona</h2>
+    <p>{{ page.intro }}</p>
+  </section>
+  <section>
+    <h2>Notable releases</h2>
+    <ul>
+      {% for r in b.notable_releases %}
+      <li>{{ r.title }} ({{ r.year }})</li>
+      {% endfor %}
+    </ul>
+  </section>
+  <section>
+    <h2>Links</h2>
+    <ul>
+      <li><a href="{{ b.urls.official }}">Official</a></li>
+      <li><a href="{{ b.urls.wikipedia }}">Wikipedia</a></li>
+      <li><a href="{{ b.urls.bandcamp }}">Bandcamp</a></li>
+      <li><a href="{{ b.urls.instagram }}">Instagram</a></li>
+      <li><a href="{{ b.urls.youtube }}">YouTube</a></li>
+    </ul>
+  </section>
+  <section>
+    <h2>Appears in</h2>
+    <ul>
+      <li><a href="{{ "/lists/metal-bands-from-arizona/" | relative_url }}">Metal Bands from Arizona</a></li>
+      <li><a href="{{ "/lists/rock-bands-from-phoenix-arizona/" | relative_url }}">Rock Bands from Phoenix, Arizona</a></li>
+      <li><a href="{{ "/lists/arizona-bands-2000s/" | relative_url }}">Arizona Bands 2000s</a></li>
+      <li><a href="{{ "/lists/famous-bands-from-arizona/" | relative_url }}">Famous Bands from Arizona</a></li>
+      <li><a href="{{ "/lists/best-bands-from-arizona/" | relative_url }}">Best Bands from Arizona</a></li>
+    </ul>
+  </section>
+</article>
