@@ -1,0 +1,222 @@
+- slug: american-standards
+  name: American Standards
+  city: Phoenix
+  years_active: 2011–present
+  genres: ["chaotic hardcore","mathcore","hardcore punk","metalcore"]
+  notable_releases:
+    - title: Anti-Melody
+      year: 2017
+    - title: Dopamine Dealer
+      year: 2022
+  urls:
+    official: https://americanstndrds.bandcamp.com
+    wikipedia: https://en.wikipedia.org/wiki/American_Standards
+    bandcamp: https://americanstndrds.bandcamp.com
+    instagram: https://www.instagram.com/americanstandards
+    youtube: https://www.youtube.com/@AmericanStandardsAZ
+  state: AZ
+  decades: ["2010s","2020s"]
+
+- slug: the-bled
+  name: The Bled
+  city: Tucson
+  years_active: 2001–2012
+  genres: ["post-hardcore","metalcore"]
+  notable_releases:
+    - title: Pass the Flask
+      year: 2003
+  urls:
+    official: https://en.wikipedia.org/wiki/The_Bled
+    wikipedia: https://en.wikipedia.org/wiki/The_Bled
+    bandcamp: https://music.apple.com
+    instagram: https://instagram.com
+    youtube: https://youtube.com
+  state: AZ
+  decades: ["2000s","2010s"]
+
+- slug: blessthefall
+  name: Blessthefall
+  city: Phoenix
+  years_active: 2004–present
+  genres: ["metalcore","post-hardcore"]
+  notable_releases:
+    - title: Witness
+      year: 2009
+  urls:
+    official: https://en.wikipedia.org/wiki/Blessthefall
+    wikipedia: https://en.wikipedia.org/wiki/Blessthefall
+    bandcamp: https://music.apple.com
+    instagram: https://instagram.com
+    youtube: https://youtube.com
+  state: AZ
+  decades: ["2000s","2010s","2020s"]
+
+- slug: eyes-set-to-kill
+  name: Eyes Set to Kill
+  city: Phoenix
+  years_active: 2003–present
+  genres: ["metalcore","post-hardcore"]
+  notable_releases:
+    - title: Reach
+      year: 2008
+  urls:
+    official: https://en.wikipedia.org/wiki/Eyes_Set_to_Kill
+    wikipedia: https://en.wikipedia.org/wiki/Eyes_Set_to_Kill
+    bandcamp: https://music.apple.com
+    instagram: https://instagram.com
+    youtube: https://youtube.com
+  state: AZ
+  decades: ["2000s","2010s","2020s"]
+
+- slug: greeley-estates
+  name: Greeley Estates
+  city: Phoenix
+  years_active: 2002–present
+  genres: ["post-hardcore","metalcore"]
+  notable_releases:
+    - title: Go West Young Man, Let the Evil Go East
+      year: 2008
+  urls:
+    official: https://en.wikipedia.org/wiki/Greeley_Estates
+    wikipedia: https://en.wikipedia.org/wiki/Greeley_Estates
+    bandcamp: https://music.apple.com
+    instagram: https://instagram.com
+    youtube: https://youtube.com
+  state: AZ
+  decades: ["2000s","2010s","2020s"]
+
+- slug: gatecreeper
+  name: Gatecreeper
+  city: Phoenix
+  years_active: 2013–present
+  genres: ["death metal"]
+  notable_releases:
+    - title: Sonoran Deprivation
+      year: 2016
+  urls:
+    official: https://en.wikipedia.org/wiki/Gatecreeper
+    wikipedia: https://en.wikipedia.org/wiki/Gatecreeper
+    bandcamp: https://gatecreeper.bandcamp.com
+    instagram: https://instagram.com/gatecreeper
+    youtube: https://youtube.com
+  state: AZ
+  decades: ["2010s","2020s"]
+
+- slug: jimmy-eat-world
+  name: Jimmy Eat World
+  city: Mesa
+  years_active: 1993–present
+  genres: ["alternative rock","emo"]
+  notable_releases:
+    - title: Bleed American
+      year: 2001
+  urls:
+    official: https://www.jimmyeatworld.com
+    wikipedia: https://en.wikipedia.org/wiki/Jimmy_Eat_World
+    bandcamp: https://music.apple.com
+    instagram: https://www.instagram.com/jimmyeatworld
+    youtube: https://www.youtube.com/@jimmyeatworld
+  state: AZ
+  decades: ["1990s","2000s","2010s","2020s"]
+
+- slug: gin-blossoms
+  name: Gin Blossoms
+  city: Tempe
+  years_active: 1987–present
+  genres: ["jangle pop","alternative rock"]
+  notable_releases:
+    - title: New Miserable Experience
+      year: 1992
+  urls:
+    official: https://www.ginblossoms.net
+    wikipedia: https://en.wikipedia.org/wiki/Gin_Blossoms
+    bandcamp: https://music.apple.com
+    instagram: https://www.instagram.com/ginblossomsaz
+    youtube: https://www.youtube.com/@ginblossoms
+  state: AZ
+  decades: ["1990s","2000s","2010s","2020s"]
+
+- slug: authority-zero
+  name: Authority Zero
+  city: Mesa
+  years_active: 1994–present
+  genres: ["punk rock","skate punk"]
+  notable_releases:
+    - title: A Passage in Time
+      year: 2002
+  urls:
+    official: https://authorityzero.com
+    wikipedia: https://en.wikipedia.org/wiki/Authority_Zero
+    bandcamp: https://authorityzero.bandcamp.com
+    instagram: https://www.instagram.com/authorityzero
+    youtube: https://www.youtube.com/@AuthorityZero
+  state: AZ
+  decades: ["2000s","2010s","2020s"]
+
+- slug: meat-puppets
+  name: Meat Puppets
+  city: Phoenix
+  years_active: 1980–present
+  genres: ["alt rock","cowpunk"]
+  notable_releases:
+    - title: Meat Puppets II
+      year: 1984
+  urls:
+    official: https://meatpuppets.com
+    wikipedia: https://en.wikipedia.org/wiki/Meat_Puppets
+    bandcamp: https://meatpuppets.bandcamp.com
+    instagram: https://www.instagram.com/meatpuppetsofficial
+    youtube: https://www.youtube.com/@MeatPuppetsVEVO
+  state: AZ
+  decades: ["1980s","1990s","2000s","2010s","2020s"]
+
+- slug: alice-cooper
+  name: Alice Cooper
+  city: Phoenix
+  years_active: 1964–present
+  genres: ["hard rock"]
+  notable_releases:
+    - title: Billion Dollar Babies
+      year: 1973
+  urls:
+    official: https://alicecooper.com
+    wikipedia: https://en.wikipedia.org/wiki/Alice_Cooper
+    bandcamp: https://music.apple.com
+    instagram: https://www.instagram.com/alicecooper
+    youtube: https://www.youtube.com/@alicecooper
+  state: AZ
+  decades: ["1970s","1980s","1990s","2000s","2010s","2020s"]
+
+- slug: calexico
+  name: Calexico
+  city: Tucson
+  years_active: 1996–present
+  genres: ["indie rock","alt country"]
+  notable_releases:
+    - title: Feast of Wire
+      year: 2003
+  urls:
+    official: https://casadecalexico.com
+    wikipedia: https://en.wikipedia.org/wiki/Calexico_(band)
+    bandcamp: https://casadecalexico.bandcamp.com
+    instagram: https://www.instagram.com/casadecalexico
+    youtube: https://www.youtube.com/@calexico
+  state: AZ
+  decades: ["2000s","2010s","2020s"]
+
+- slug: the-word-alive
+  name: The Word Alive
+  city: Phoenix
+  years_active: 2008–present
+  genres: ["metalcore","post-hardcore"]
+  notable_releases:
+    - title: Deceiver
+      year: 2010
+  urls:
+    official: https://wearethewordalive.com
+    wikipedia: https://en.wikipedia.org/wiki/The_Word_Alive
+    bandcamp: https://music.apple.com
+    instagram: https://www.instagram.com/wearethewordalive
+    youtube: https://www.youtube.com/@TheWordAlive
+  state: AZ
+  decades: ["2010s","2020s"]
