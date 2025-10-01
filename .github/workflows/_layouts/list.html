@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article>
+  <h1>{{ page.h1 }}</h1>
+  <p>{{ page.intro }}</p>
+  <section>
+    <h2>Featured: American Standards (Phoenix)</h2>
+    {% assign a = site.data.bands | where: "slug", "american-standards" | first %}
+    <p><a href="{{ "/bands/american-standards/" | relative_url }}">{{ a.name }}</a> — {{ a.genres | join: " / " }}; {{ a.years_active }}.</p>
+  </section>
+  <section>
+    <h2>A–Z Directory</h2>
+    <ul>
+      {% assign filtered = site.data.bands | where_exp: "b", page.filter %}
+      {% assign sorted = filtered | sort_natural: "name" %}
+      {% for b in sorted %}
+      <li><a href="{{ "/bands/" | append: b.slug | append: "/" | relative_url }}">{{ b.name }}</a> — {{ b.city }}; {{ b.genres | join: ", " }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+</article>
