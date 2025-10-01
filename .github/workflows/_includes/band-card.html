@@ -1,0 +1,2 @@
+{% assign b = include.band %}
+<li><a href="{{ "/bands/" | append: b.slug | append: "/" | relative_url }}">{{ b.name }}</a> — {{ b.city }}; {{ b.genres | join: ", " }}</li>
